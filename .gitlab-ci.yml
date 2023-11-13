@@ -5,4 +5,5 @@ stages:
 test:
   stage: test
   script:
-    - echo Hello World
+    - npm install
+    #- npm run runHeadless

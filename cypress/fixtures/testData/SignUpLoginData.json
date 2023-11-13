@@ -1,0 +1,19 @@
+{
+    
+    "email":"aashima476@mailnesia.com",
+    "dupEmail":"Test12@mailnesia.com",
+    "password":"#Test123",
+    "cpassword":"#Test123",
+    "verifysignuppageData":"Binery account",
+    "verifyOTPPage":"Verify Your Email",
+    "clickSkipBtn":"Skip for now",
+    "verifyDashboardPage":"Welcome to Binery!",
+    "verifyDuplicateEmail":"User already exists",
+    "wrong_confirmPassword":"#Test124",
+    "confirmPass":"Password must match",
+    "wrongemail":"w3e@gmail.com",
+    "wrongpass":"%Te23",
+    "staticOtp":[1,6,4,5,1,2], 
+    "wrongOTP":[1,6,8,4,2,2]
+   
+}

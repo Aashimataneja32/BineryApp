@@ -1,0 +1,20 @@
+{
+    "firstname":"Aashima",
+    "lastname":"Taneja",
+    "countryCode":"+ 91",
+    "mobileNo":"9876543210",
+    "code":"164512",
+    "companyName":"Test2",
+    "incorporated":"Algeria",
+    "currency":"AMD",
+    "industry":"Accounting",
+    "businessDoc":"files/testBR.pdf",
+    "businessExpiryDate":"2025-11-10",
+    "incorpCertificate":"files/testCI.pdf",
+    "incorpDocNo":"1234567",
+    "hasAccountant":"Yes",
+    "hasEngagedAuditor":"No",
+    "hasTaxAgent":"No",
+    "completeonBoarding":"Your account is ready"
+
+}

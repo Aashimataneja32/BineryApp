@@ -9,12 +9,6 @@ local-e2e:
   script:
     - npm ci --prefer-offline
     - npm start &
-    - npx cypress run
-test:
-  image: cypress/base:10
-  stage: test
-  script:
-    # Run cypress tests
     - npx cypress run --reporter mochawesome  --reporter-options reportDir=mochawesome-report,overwrite=false,html=false,json=true
   artifacts:
     expire_in: 30 days

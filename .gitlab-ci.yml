@@ -9,4 +9,4 @@ test:
     - npm ci
     # start the server in the background
     - npm start &
-    - npm run runHeadless
+    - npm run e2e

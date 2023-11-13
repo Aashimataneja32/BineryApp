@@ -1,9 +1,12 @@
-image: cypress/base:10
+image: cypress/base:14.16.0
 
 stages:
   - test
-test:
+
+local-e2e:
   stage: test
+
   script:
-    - npm install
-    - npm run runHeadless
+    - npm ci --prefer-offline
+    - npm start &
+    - npx cypress run

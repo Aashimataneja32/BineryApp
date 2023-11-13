@@ -6,7 +6,7 @@
   "scripts": {
     "_test": "cypress run -b chrome",
     "test": "cypress open --e2e --browser chrome",
-    "runHeadless": ".\node_modules\\.bin\\cypress run"
+    "runHeadless": "node_modules\\.bin\\cypress run"
   },
   "keywords": [
     "automation",

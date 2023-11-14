@@ -1,6 +1,6 @@
 import { defineConfig } from "cypress";
 
-export default defineConfig({
+module.exports= defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {

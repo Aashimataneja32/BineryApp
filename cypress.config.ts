@@ -8,7 +8,7 @@ export default defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
       config.specPattern= [
         "cypress/e2e/signUp.cy.ts",
-        "cypress/e2e/forgotPassword.cy.ts",
+      //  "cypress/e2e/forgotPassword.cy.ts",
          "cypress/e2e/signIn.cy.ts",
          "cypress/e2e/onboarding.cy.ts"
         

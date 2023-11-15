@@ -22,12 +22,14 @@ export class signUp{
 
     ClickOnCreateAccountBtn(){
         //cy.log(email)
-        cy.xpath(this.elements.signUpBtn,{timeout:2000}).should('exist').click()
+        cy.xpath(this.elements.signUpBtn,{timeout:2000}).as('CreateBtn')
+        cy.wait('@CreateBtn').should('exist').click()
          cy.get(this.elements.signUpPageAssert,{timeout:1000}).should('be.visible').should('contain',data.verifysignuppageData)
     }
 
     VerifySignupPage(email:string,password:string,cpassword:string){
-        cy.get(this.elements.email,{timeout:2000}).should('exist').type(email)
+        cy.get(this.elements.email,{timeout:2000}).as('email')
+        cy.wait('@email').should('exist').type(email)
         cy.get(this.elements.passwrod).type(password)
         cy.get(this.elements.cpassword).type(cpassword, {force: true})
         cy.get(this.elements.policy,{timeout:15000}).check()

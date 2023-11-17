@@ -7,7 +7,9 @@
     "_test": "cypress run -b chrome",
     "test": "cypress open --e2e --browser chrome",
     "runHeadless": "node_modules\\.bin\\cypress run --config pageLoadTimeout=10000",
-    "runtests": "cypress run runHeadless --"
+    "runtests": "cypress run runHeadless --",
+    "merge":"mochawesome-merge cypress/reports/*.json>cypress/reports/output.json",
+    "generate-mochawesome-report":"marge cypress/reports/output.json --reportDir ./ --inline"
   },
   "keywords": [
     "automation",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8",
-    "cypress-mochawesome-reporter": "^3.6.1"
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "mochawesome-merge": "^4.3.0"
   }
 }

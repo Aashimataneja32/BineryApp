@@ -1,9 +1,6 @@
-Gmail aashimaautomation@gmail.com ,app password :: utur wwxj kiyq cswr (used in jenkins gmail configuration)
-jenkins email :: https://www.youtube.com/watch?v=n2pKCBXE0VY
+1. Gmail aashimaautomation@gmail.com ,app password :: utur wwxj kiyq cswr (used in jenkins gmail configuration)
+2. jenkins email :: https://www.youtube.com/watch?v=n2pKCBXE0VY
      and also follow            :: Mukesh otwani videos
-    
-    https://github.com/adamgruber/mochawesome/issues/240
 
-    marge [options] data_file [data_file2 ...]
 
-Jenkins on local :: http://localhost:7070/
+3. Jenkins on local :: http://localhost:7070/

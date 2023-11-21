@@ -3,7 +3,7 @@ import {onBoarding} from '../support/pages/onBoarding'
 import data from '../fixtures/testData/onBoarding.json'
 const boarding = new onBoarding()
 
-describe("Vaidate the onBording module",function(){
+describe("Validate the onBording module",function(){
     
     
    

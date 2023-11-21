@@ -24,6 +24,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
+    "@types/mochawesome": "^6.2.4",
     "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.6.1"
   }

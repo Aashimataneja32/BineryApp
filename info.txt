@@ -4,3 +4,18 @@
 
 
 3. Jenkins on local :: http://localhost:7070/
+
+4. Set script console on node settings below ::
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "sandbox allow-same-origin allow-scripts; img-src 'self'; style-src 'self' 'unsafe-inline';")
+    As a result you see the above setting values (may click 'run' two times to save values)
+
+5. for oulook mail
+smtp.office365.com, choose TCl instaed of SSL and chnage credentials
+https://www.sharepointdiary.com/2021/08/fix-send-mailmessage-smtpclientauthentication-is-disabled-for-the-tenant-error.html
+https://answers.microsoft.com/en-us/msoffice/forum/all/unable-to-send-email-via-3rd-part-app-i-get-the/b29a7cd0-e696-4b0e-b66e-523be784a85a
+
+convert cypres script in to docker
+
+Docker is the software/tool by/through this we create diff container(which conatin bineries,lib and dependiencies,all container share comman OS)
+Docker container is the unit by which we install all dependiensiec
+Docker image is used to create the docker container 

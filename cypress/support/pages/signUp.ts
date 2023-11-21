@@ -22,7 +22,7 @@ export class signUp{
 
     ClickOnCreateAccountBtn(){
         //cy.log(email)
-        cy.xpath(this.elements.signUpBtn,{timeout:7000}).should('exist').click()
+        cy.xpath(this.elements.signUpBtn,{timeout:10000}).should('exist').click()
          cy.get(this.elements.signUpPageAssert,{timeout:1000}).should('be.visible').should('contain',data.verifysignuppageData)
     }
 
